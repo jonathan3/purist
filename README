@@ -1,0 +1,10 @@
+So what does Purist do? Shorten URLs, that's what it does. Although in the actual code
+it's referred to as URIs, get it right.
+
+It uses the web.py framework (http://webpy.org). For data storage it uses SQLite 3 and
+memcached. You can use it without memcached, but you still need the Python module at the
+moment.
+
+A database (uris.db) is included with some sample data so you can get started right away.
+
+And it's MIT licensed. So there.
